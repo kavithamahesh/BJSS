@@ -4,7 +4,7 @@ exports.config = {
     hostname: 'localhost',
     port: 4444,
     path: '/wd/hub',
-    specs: ['./src/test/features/*.feature'],
+    specs: ['./src/test/features/ui/*.feature','./src/test/features/api/*.feature'],
     maxInstances: 1,
     capabilities: [
         {

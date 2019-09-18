@@ -14,7 +14,12 @@ Install the dependencies:
         yarn install
 
 Run tests:
-
+1. To run all available tests :
     yarn test 
     or 
     npm test
+    
+2. To run api related tests:    yarn test:api
+     
+3. To run ui related tests:     yarn test:ui
+    

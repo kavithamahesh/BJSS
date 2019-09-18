@@ -17,7 +17,9 @@
     "report:allure": "./node_modules/allure-commandline/bin/allure",
     "report:generate": "yarn report:allure generate --clean ./test-report/allure-result/ -o ./test-report/allure-report",
     "report:open": "yarn report:allure open test-report/allure-report",
-    "test": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js",
+    "test:api": "wdio wdio.conf.js --spec src/test/features/api/*.feature",
+    "test:ui": "wdio wdio.conf.js --spec src/test/features/ui/*.feature"
   },
   "dependencies": {
     "@babel/cli": "^7.5.0",
