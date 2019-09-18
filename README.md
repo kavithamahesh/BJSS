@@ -5,13 +5,13 @@ Requirements
 ---------------
 
 - node >= 10.15.x - [how to install Node](https://nodejs.org/en/download/)
-- yarn >= 1.16.x - [how to install Yarn](https://yarnpkg.com/en/docs/
+- yarn >= 1.16.x - [how to install Yarn](https://yarnpkg.com/en/docs/)
 
-Getting Started
+How to run the tests ...
 ---------------
 
 Install the dependencies:
-        yarn install
+yarn install
 
 Run tests:
 1. To run all available tests :
